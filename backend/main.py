@@ -18,7 +18,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-access_token = 'xxx'
+access_token = ''
 
 app = FastAPI()
 
