@@ -18,8 +18,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-openai.api_key = os.getenv('sk-proj-QDHAeNOhPxzFZZaKbXgrT3BlbkFJJIDnVtjjTYfIDzfdV7r3')
-access_token = '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'
+openai.api_key = os.getenv('xxx')
+access_token = 'xxx'
 
 app = FastAPI()
 
