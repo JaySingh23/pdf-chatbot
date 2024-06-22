@@ -12,7 +12,7 @@ Displaying Answers: The application displays the answer to the user's question. 
 React, LlamaIndex, FastAPI, Local Storage for saving files
 
 ## Description
-This is a project which uses React, llamaindex and fastAPI to upload pdf and then convert them to their respective txt files in an uploads folder which is created when someone enters a document for the first time.
+This application begins with retrieval of pdf from the user. After the pdf has been uploaded, the fastapi backend uploads this in an `uploads` folder. It is also then converted to a `.txt` file.
 
 ![Screenshot 2024-06-21 222725](https://github.com/JaySingh23/pdf-chatbot/assets/64877729/83249aa3-74fe-4f39-89f1-f8da9b5cc712)
 
@@ -26,4 +26,4 @@ Below is a short video which showcases how it works.
 
 https://github.com/JaySingh23/pdf-chatbot/assets/64877729/0f0cbb64-c30d-4abd-b67d-5a81d2e6d773
 
-***Note - It might seem like it is working slowly but the issue is that I have a ram of only 4gb on my laptop. So everything works slowly on my system. And the token has been disabled as well***
+***Note - It might seem like it is working slowly but the issue is that I have a ram of only 4gb on my laptop. So everything works slowly on my system. And also the token has been disabled as well.***
